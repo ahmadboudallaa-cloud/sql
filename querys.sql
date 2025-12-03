@@ -27,3 +27,15 @@ select * from accounts;
 select account_number from accounts;
 
 
+------------- 7-------------------------
+
+
+ select * from transactions;
+
+
+
+------------- 8-------------------------
+
+select * from accounts where balance>10000;
+
+
