@@ -17,3 +17,13 @@ select * from customers;
 
 select full_name,email from customers;
 
+------------- 5-------------------------
+
+
+select * from accounts;
+
+------------- 6-------------------------
+
+select account_number from accounts;
+
+
