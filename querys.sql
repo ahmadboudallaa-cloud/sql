@@ -58,4 +58,29 @@ select * from transactions where transaction_type = 'credit';
 
 select * from transactions where accountid = 1;
 
+------------- 13-------------------------
+
+select * from accounts  WHERE advisorid = 2;
+
+------------- 14-------------------------
+
+
+select * from accounts where account_type = 'Savings';
+
+-------------15-------------------------
+
+
+select * from transactions where amount >= 500;
+
+
+------------- 16-------------------------
+
+
+select * from transactions where amount between 100 and 1000;
+
+------------- 17-------------------------
+
+
+select * from accounts where customerid = 1;
+
 
