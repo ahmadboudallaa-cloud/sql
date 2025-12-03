@@ -39,3 +39,13 @@ select account_number from accounts;
 select * from accounts where balance>10000;
 
 
+------------- 9-------------------------
+
+select * from accounts where balance<=0;
+
+
+
+------------- 10-------------------------
+
+select * from transactions where transaction_type = 'debit';
+
