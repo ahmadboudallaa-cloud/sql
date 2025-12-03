@@ -101,6 +101,14 @@ mysql> select * from transactions order by amount desc;
  select * from transactions order by amount desc limit 5;
 
 
+------------- 21-------------------------
+
+select * from transactions order by registration_date desc;
+
+------------- 22-------------------------
+
+
+select * from transactions order by registration_date desc limit 3;
 
 ------------- 23-------------------------
 
