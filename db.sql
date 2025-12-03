@@ -53,3 +53,22 @@ INSERT INTO accounts (account_number, balance, account_type, customerid, advisor
 (56985,200,'Checking',3,3),
 (65332,2300,'Savings',4,4),
 (56025,500,'Savings',5,5);
+
+
+
+CREATE TABLE transactions (
+  transaction_id INT AUTO_INCREMENT PRIMARY KEY,
+  amount DECIMAL(10,0),
+  transaction_type ENUM('debit','credit'),
+  registration_date DATETIME DEFAULT CURRENT_TIMESTAMP,
+  accountid INT,
+  FOREIGN KEY (accountid) REFERENCES accounts(account_id)
+);
+
+
+INSERT INTO transactions (amount, transaction_type, accountid) VALUES
+(120,'debit',5),
+(180,'credit',4),
+(122,'credit',3),
+(1890,'credit',2),
+(3265,'debit',1);
