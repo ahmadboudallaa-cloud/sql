@@ -49,3 +49,13 @@ select * from accounts where balance<=0;
 
 select * from transactions where transaction_type = 'debit';
 
+------------- 11-------------------------
+
+select * from transactions where transaction_type = 'credit';
+
+------------- 12------------------------
+
+
+select * from transactions where accountid = 1;
+
+
