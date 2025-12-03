@@ -84,3 +84,26 @@ select * from transactions where amount between 100 and 1000;
 select * from accounts where customerid = 1;
 
 
+------------- 18-------------------------
+
+select * from accounts order by balance asc;
+
+
+------------- 19-------------------------
+
+
+mysql> select * from transactions order by amount desc;
+
+
+
+------------- 20-------------------------
+
+ select * from transactions order by amount desc limit 5;
+
+
+
+------------- 23-------------------------
+
+
+
+
